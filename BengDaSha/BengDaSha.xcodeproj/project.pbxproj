@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC159AE81D34854D00BD2CA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC159AE71D34854D00BD2CA9 /* main.m */; };
+		CC159AEB1D34854D00BD2CA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC159AEA1D34854D00BD2CA9 /* AppDelegate.m */; };
+		CC159AEE1D34854D00BD2CA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC159AED1D34854D00BD2CA9 /* ViewController.m */; };
+		CC159AF11D34854D00BD2CA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC159AEF1D34854D00BD2CA9 /* Main.storyboard */; };
+		CC159AF41D34854D00BD2CA9 /* BengDaSha.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC159AF21D34854D00BD2CA9 /* BengDaSha.xcdatamodeld */; };
+		CC159AF61D34854D00BD2CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC159AF51D34854D00BD2CA9 /* Assets.xcassets */; };
+		CC159AF91D34854D00BD2CA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC159AF71D34854D00BD2CA9 /* LaunchScreen.storyboard */; };
+		CC159B041D34854D00BD2CA9 /* BengDaShaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC159B031D34854D00BD2CA9 /* BengDaShaTests.m */; };
+		CC159B0F1D34854D00BD2CA9 /* BengDaShaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC159B0E1D34854D00BD2CA9 /* BengDaShaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC159B001D34854D00BD2CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC159ADB1D34854D00BD2CA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC159AE21D34854D00BD2CA9;
+			remoteInfo = BengDaSha;
+		};
+		CC159B0B1D34854D00BD2CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC159ADB1D34854D00BD2CA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC159AE21D34854D00BD2CA9;
+			remoteInfo = BengDaSha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC159AE31D34854D00BD2CA9 /* BengDaSha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BengDaSha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC159AE71D34854D00BD2CA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC159AE91D34854D00BD2CA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC159AEA1D34854D00BD2CA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC159AEC1D34854D00BD2CA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC159AED1D34854D00BD2CA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC159AF01D34854D00BD2CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC159AF31D34854D00BD2CA9 /* BengDaSha.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BengDaSha.xcdatamodel; sourceTree = "<group>"; };
+		CC159AF51D34854D00BD2CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC159AF81D34854D00BD2CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC159AFA1D34854D00BD2CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC159AFF1D34854D00BD2CA9 /* BengDaShaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BengDaShaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC159B031D34854D00BD2CA9 /* BengDaShaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BengDaShaTests.m; sourceTree = "<group>"; };
+		CC159B051D34854D00BD2CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC159B0A1D34854D00BD2CA9 /* BengDaShaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BengDaShaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC159B0E1D34854D00BD2CA9 /* BengDaShaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BengDaShaUITests.m; sourceTree = "<group>"; };
+		CC159B101D34854D00BD2CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC159AE01D34854D00BD2CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC159AFC1D34854D00BD2CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC159B071D34854D00BD2CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC159ADA1D34854D00BD2CA9 = {
+			isa = PBXGroup;
+			children = (
+				CC159AE51D34854D00BD2CA9 /* BengDaSha */,
+				CC159B021D34854D00BD2CA9 /* BengDaShaTests */,
+				CC159B0D1D34854D00BD2CA9 /* BengDaShaUITests */,
+				CC159AE41D34854D00BD2CA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC159AE41D34854D00BD2CA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC159AE31D34854D00BD2CA9 /* BengDaSha.app */,
+				CC159AFF1D34854D00BD2CA9 /* BengDaShaTests.xctest */,
+				CC159B0A1D34854D00BD2CA9 /* BengDaShaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC159AE51D34854D00BD2CA9 /* BengDaSha */ = {
+			isa = PBXGroup;
+			children = (
+				CC159AE91D34854D00BD2CA9 /* AppDelegate.h */,
+				CC159AEA1D34854D00BD2CA9 /* AppDelegate.m */,
+				CC159AEC1D34854D00BD2CA9 /* ViewController.h */,
+				CC159AED1D34854D00BD2CA9 /* ViewController.m */,
+				CC159AEF1D34854D00BD2CA9 /* Main.storyboard */,
+				CC159AF51D34854D00BD2CA9 /* Assets.xcassets */,
+				CC159AF71D34854D00BD2CA9 /* LaunchScreen.storyboard */,
+				CC159AFA1D34854D00BD2CA9 /* Info.plist */,
+				CC159AF21D34854D00BD2CA9 /* BengDaSha.xcdatamodeld */,
+				CC159AE61D34854D00BD2CA9 /* Supporting Files */,
+			);
+			path = BengDaSha;
+			sourceTree = "<group>";
+		};
+		CC159AE61D34854D00BD2CA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC159AE71D34854D00BD2CA9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC159B021D34854D00BD2CA9 /* BengDaShaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC159B031D34854D00BD2CA9 /* BengDaShaTests.m */,
+				CC159B051D34854D00BD2CA9 /* Info.plist */,
+			);
+			path = BengDaShaTests;
+			sourceTree = "<group>";
+		};
+		CC159B0D1D34854D00BD2CA9 /* BengDaShaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC159B0E1D34854D00BD2CA9 /* BengDaShaUITests.m */,
+				CC159B101D34854D00BD2CA9 /* Info.plist */,
+			);
+			path = BengDaShaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC159AE21D34854D00BD2CA9 /* BengDaSha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC159B131D34854D00BD2CA9 /* Build configuration list for PBXNativeTarget "BengDaSha" */;
+			buildPhases = (
+				CC159ADF1D34854D00BD2CA9 /* Sources */,
+				CC159AE01D34854D00BD2CA9 /* Frameworks */,
+				CC159AE11D34854D00BD2CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BengDaSha;
+			productName = BengDaSha;
+			productReference = CC159AE31D34854D00BD2CA9 /* BengDaSha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC159AFE1D34854D00BD2CA9 /* BengDaShaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC159B161D34854D00BD2CA9 /* Build configuration list for PBXNativeTarget "BengDaShaTests" */;
+			buildPhases = (
+				CC159AFB1D34854D00BD2CA9 /* Sources */,
+				CC159AFC1D34854D00BD2CA9 /* Frameworks */,
+				CC159AFD1D34854D00BD2CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC159B011D34854D00BD2CA9 /* PBXTargetDependency */,
+			);
+			name = BengDaShaTests;
+			productName = BengDaShaTests;
+			productReference = CC159AFF1D34854D00BD2CA9 /* BengDaShaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC159B091D34854D00BD2CA9 /* BengDaShaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC159B191D34854D00BD2CA9 /* Build configuration list for PBXNativeTarget "BengDaShaUITests" */;
+			buildPhases = (
+				CC159B061D34854D00BD2CA9 /* Sources */,
+				CC159B071D34854D00BD2CA9 /* Frameworks */,
+				CC159B081D34854D00BD2CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC159B0C1D34854D00BD2CA9 /* PBXTargetDependency */,
+			);
+			name = BengDaShaUITests;
+			productName = BengDaShaUITests;
+			productReference = CC159B0A1D34854D00BD2CA9 /* BengDaShaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC159ADB1D34854D00BD2CA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Legend;
+				TargetAttributes = {
+					CC159AE21D34854D00BD2CA9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CC159AFE1D34854D00BD2CA9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CC159AE21D34854D00BD2CA9;
+					};
+					CC159B091D34854D00BD2CA9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CC159AE21D34854D00BD2CA9;
+					};
+				};
+			};
+			buildConfigurationList = CC159ADE1D34854D00BD2CA9 /* Build configuration list for PBXProject "BengDaSha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC159ADA1D34854D00BD2CA9;
+			productRefGroup = CC159AE41D34854D00BD2CA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC159AE21D34854D00BD2CA9 /* BengDaSha */,
+				CC159AFE1D34854D00BD2CA9 /* BengDaShaTests */,
+				CC159B091D34854D00BD2CA9 /* BengDaShaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC159AE11D34854D00BD2CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC159AF91D34854D00BD2CA9 /* LaunchScreen.storyboard in Resources */,
+				CC159AF61D34854D00BD2CA9 /* Assets.xcassets in Resources */,
+				CC159AF11D34854D00BD2CA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC159AFD1D34854D00BD2CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC159B081D34854D00BD2CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC159ADF1D34854D00BD2CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC159AEE1D34854D00BD2CA9 /* ViewController.m in Sources */,
+				CC159AEB1D34854D00BD2CA9 /* AppDelegate.m in Sources */,
+				CC159AE81D34854D00BD2CA9 /* main.m in Sources */,
+				CC159AF41D34854D00BD2CA9 /* BengDaSha.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC159AFB1D34854D00BD2CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC159B041D34854D00BD2CA9 /* BengDaShaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC159B061D34854D00BD2CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC159B0F1D34854D00BD2CA9 /* BengDaShaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC159B011D34854D00BD2CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC159AE21D34854D00BD2CA9 /* BengDaSha */;
+			targetProxy = CC159B001D34854D00BD2CA9 /* PBXContainerItemProxy */;
+		};
+		CC159B0C1D34854D00BD2CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC159AE21D34854D00BD2CA9 /* BengDaSha */;
+			targetProxy = CC159B0B1D34854D00BD2CA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC159AEF1D34854D00BD2CA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC159AF01D34854D00BD2CA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC159AF71D34854D00BD2CA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC159AF81D34854D00BD2CA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC159B111D34854D00BD2CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC159B121D34854D00BD2CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC159B141D34854D00BD2CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BengDaSha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Legend.BengDaSha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC159B151D34854D00BD2CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BengDaSha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Legend.BengDaSha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC159B171D34854D00BD2CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BengDaShaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Legend.BengDaShaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BengDaSha.app/BengDaSha";
+			};
+			name = Debug;
+		};
+		CC159B181D34854D00BD2CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BengDaShaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Legend.BengDaShaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BengDaSha.app/BengDaSha";
+			};
+			name = Release;
+		};
+		CC159B1A1D34854D00BD2CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BengDaShaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Legend.BengDaShaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BengDaSha;
+			};
+			name = Debug;
+		};
+		CC159B1B1D34854D00BD2CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BengDaShaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Legend.BengDaShaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BengDaSha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC159ADE1D34854D00BD2CA9 /* Build configuration list for PBXProject "BengDaSha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC159B111D34854D00BD2CA9 /* Debug */,
+				CC159B121D34854D00BD2CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC159B131D34854D00BD2CA9 /* Build configuration list for PBXNativeTarget "BengDaSha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC159B141D34854D00BD2CA9 /* Debug */,
+				CC159B151D34854D00BD2CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC159B161D34854D00BD2CA9 /* Build configuration list for PBXNativeTarget "BengDaShaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC159B171D34854D00BD2CA9 /* Debug */,
+				CC159B181D34854D00BD2CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC159B191D34854D00BD2CA9 /* Build configuration list for PBXNativeTarget "BengDaShaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC159B1A1D34854D00BD2CA9 /* Debug */,
+				CC159B1B1D34854D00BD2CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC159AF21D34854D00BD2CA9 /* BengDaSha.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC159AF31D34854D00BD2CA9 /* BengDaSha.xcdatamodel */,
+			);
+			currentVersion = CC159AF31D34854D00BD2CA9 /* BengDaSha.xcdatamodel */;
+			path = BengDaSha.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC159ADB1D34854D00BD2CA9 /* Project object */;
+}
